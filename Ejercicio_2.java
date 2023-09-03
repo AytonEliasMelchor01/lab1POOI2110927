@@ -6,16 +6,20 @@ C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS
 Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
+import java.util.Scanner; 
 public class Main
 {
 	public static void main(String[] args) {
 	    
-	    //Ejercicio 2
-	    
-	    int num=1;
-	    if (num > 0 && num % 2 != 0) 
-            System.out.println("true");
-	    
-	    //Resultado: true , por ser 1 un número impar positivo 
+	   int numero ;
+	   Scanner leer = new Scanner(System.in);
+	   
+	   System.out.println ("ingrese el numero:");
+	   numero = leer .nextInt();
+	   
+	   if( numero>0 && numero%2 !=0)
+	   System.out.println("true");
+	   
+	   
 	}
 }
