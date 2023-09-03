@@ -6,21 +6,22 @@ C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS
 Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
+import java.util.Scanner; 
 public class Main
 {
 	public static void main(String[] args) {
 	    
-	    //Ejercicio 3
-	    
-	    double numA= 2 ; double numB = 3;
-	    if ((numA >= 0 && numB >= 0) || (numA < 0 && numB < 0)) 
+	   int numA ; int numB;
+	   Scanner leer = new Scanner(System.in);
+	   
+	   System.out.println ("ingrese los numeros:");
+	   numA = leer .nextInt();
+	   numB = leer .nextInt();
+	   
+	   
+	   if ((numA >= 0 && numB >= 0) || (numA < 0 && numB < 0)) 
             System.out.println("true");
-        else
-            System.out.println("false");
-
-        
-
-	    
-	    //Resultado: true , por ser numeros con los mismos signos 
+	   
+	   
 	}
 }
