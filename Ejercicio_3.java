@@ -6,20 +6,20 @@ C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS
 Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
+import java.util.Scanner; 
 public class Main
 {
 	public static void main(String[] args) {
 	    
-	    //Ejercicio 3
-	    
-	    double numA= 2 ; double numB = 3;
-	    if (numA > 0 && numB > 0)
-            System.out.println("true");
-        else
-            System.out.println("Al menos 1 es negativo");
-        
-
-	    
-	    //Resultado: true , por ser 2 y 3 numeros enteros positivos 
+	   int numero ;
+	   Scanner leer = new Scanner(System.in);
+	   
+	   System.out.println ("ingrese el numero:");
+	   numero = leer .nextInt();
+	   
+	   if( numero>0 && numero%2 !=0)
+	   System.out.println("true");
+	   
+	   
 	}
 }
